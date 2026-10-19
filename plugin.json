@@ -1,0 +1,24 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "universal-customer-development",
+  "version": "1.1.0",
+  "description": "按品牌、产品或服务类目和目标市场匹配潜在客户，执行研究、开发信准备、授权触达与跟进记录。",
+  "author": { "name": "Leo-131" },
+  "repository": "https://github.com/Leo-131/2",
+  "keywords": ["sales", "prospecting", "customer-development"],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "通用自动化客户开发",
+        "shortDescription": "适配不同品牌、类目与市场的客户开发流程",
+        "longDescription": "根据品牌定位和合作模式研究潜在客户、核实联系人、准备个性化开发信，并使用已连接且已获授权的工具执行触达和跟进。此插件提供流程技能，实际数据查询、发送及调度使用宿主中可用的工具。",
+        "developerName": "Leo-131",
+        "category": "Productivity",
+        "defaultPrompt": [
+          "根据我的品牌、产品类目和目标市场，研究潜在客户并生成开发信草稿。",
+          "核查本次客户开发进展，并依据真实证据整理下一步跟进建议。"
+        ]
+      }
+    }
+  }
+}

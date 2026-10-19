@@ -1,0 +1,12 @@
+{
+  "name": "leo-customer-development",
+  "interface": { "displayName": "Leo 客户开发插件" },
+  "plugins": [
+    {
+      "name": "universal-customer-development",
+      "source": { "source": "local", "path": "./" },
+      "policy": { "installation": "AVAILABLE", "authentication": "ON_INSTALL" },
+      "category": "Productivity"
+    }
+  ]
+}
